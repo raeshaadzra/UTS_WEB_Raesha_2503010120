@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - TaskMate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="andi_header">
+    <a href="index.html" class="andi_logo">TaskMate.</a>
+    <button id="andi_toggle" class="andi_toggle">☰</button>
+    <nav id="andi_menu" class="andi_menu">
+        <a href="index.html">Home</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="fitur.html">Fitur</a>
+        <a href="kelompok.html">Kelompok</a>
+        <a href="tugas.html">Tugas</a>
+        <a href="panduan.html">Panduan</a>
+        <a class="andi_active" href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="andi_hero">
+        <div>
+            <span class="andi_label">HUBUNGI KAMI</span>
+            <h1>Contact TaskMate</h1>
+            <p>
+                Silakan kirim pertanyaan, kritik,
+                dan saran melalui formulir berikut.
+            </p>
+        </div>
+    </section>
+
+    <section class="andi_section">
+        <h2>Kirim Pesan</h2>
+
+        <form class="andi_form" id="andi_contact_form">
+
+            <label for="andi_name">Nama Lengkap</label>
+            <input type="text" id="andi_name"
+                   placeholder="Masukkan nama" required>
+
+            <label for="andi_email">Email</label>
+            <input type="email" id="andi_email"
+                   placeholder="Masukkan email" required>
+
+            <label for="andi_subject">Subjek</label>
+            <input type="text" id="andi_subject"
+                   placeholder="Subjek pesan" required>
+
+            <label for="andi_message">Pesan</label>
+            <textarea id="andi_message" rows="5"
+                      placeholder="Tuliskan pesan..." required></textarea>
+
+            <button type="submit" class="andi_button">
+                Kirim Pesan
+            </button>
+
+            <p id="andi_form_result"></p>
+        </form>
+    </section>
+</main>
+
+<footer class="andi_footer">
+    <b>TaskMate.</b>
+    <span>Website UTS Pemrograman Web - Raesha Adzra</span>
+    <span>© 2026</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
